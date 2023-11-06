@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+html{
+    min-width: 500px;
+    font-size: 62.5%; 
+    /* ajuste para rem y pix */
+}
+body{
+    font-size: 16px;
+    /* ajuste para rem y pix  1 rem = 10px*/
+}
