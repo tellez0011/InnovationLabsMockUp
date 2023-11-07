@@ -22,15 +22,15 @@
   
   .title{
     color: white;
-    font-size: 4.5rem;
+    font-size: 4rem;
     text-align: center;
   }
 
   .info{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.123rem;
     width: 70%;
-    padding-top: 4.5rem;
+    padding-top: 4.9rem;
     text-align: justify;
   }
 
@@ -79,9 +79,69 @@
     color: white;
     position: absolute;
     top: 130%;
-    left: 75.5%;
+    left: 64.5%;
     font-weight: 700;
+    font-size: 2rem;
+    text-wrap: nowrap;
 }
 .hour{
     color:#008d91;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 200%;
+    left: 70.5%;
+    background-color: #008d91;
+    padding: 10px 40px;
+    width: 300px;
+}
+
+.contentContainer{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 85%;
+  
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.col{
+    border: solid 1px white;
+   
+}
+.star{
+    width: 5rem;
+    height: auto;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+padding: 10px 10px;
+
+}
+
+.card > p{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.card > ul{
+    font-size: 2rem;
+    text-align: justify;
 }
