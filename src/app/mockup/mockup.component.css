@@ -24,6 +24,7 @@
     color: white;
     font-size: 4rem;
     padding: 6rem 6rem 2rem 6rem;
+    text-align: center;
 }
 
 .info {
@@ -33,7 +34,8 @@
     text-align: justify;
 
 }
-.highlight{
+
+.highlight {
     font-weight: 600;
 }
 
@@ -45,6 +47,13 @@
     padding: 21rem 13rem 10rem 10rem;
 }
 
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .imgRegister {
     width: 60%;
     margin-bottom: 3rem;
@@ -53,7 +62,7 @@
 .topic>p:first-child {
     color: white;
     font-size: 2REM;
-   
+
 }
 
 .topic>p:last-child {
@@ -63,24 +72,26 @@
 }
 
 .topic p {
-    margin: 0; /* Elimina el margen */
+    margin: 0;
+    /* Elimina el margen */
     line-height: .8;
 }
 
-.formInfo{
+.formInfo {
     padding-top: 1rem;
     font-weight: 700;
     font-size: 2rem;
     text-wrap: nowrap;
 }
-.hour{
-    color:#008d91;
+
+.hour {
+    color: #008d91;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
 }
 
-.btn{
+.btn {
     color: white;
     font-size: 2rem;
     background-color: #008d91;
@@ -88,17 +99,94 @@
     width: 30vw;
 }
 
-.formInfo > p:first-child{
-color: white;
-font-weight: 400;
+.formInfo>p:first-child {
+    color: white;
+    font-weight: 400;
+}
+
+.contentContainer {
+    margin-top: 3rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 
+.bodyContainer {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    column-gap: 5rem;
+    grid-row-gap: 2rem;
+    padding: 20px 59px 20px 100px;
+}
 
+.bar {
+    min-height: 1rem;
+    background-color: #008d91;
+    border-radius: 10px;
+    width: 356px;
+}
 
+.card {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    align-items: center;
+    justify-items: center;
+    width: 350px;
+    height: 220px;
+    padding: 20px 30px 20px 30px;
+    gap: 2rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 
+.card>p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.list{
+    padding: 0px;
+}
+.listItem{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: start !important;
+}
+.list  li {
+    font-size: 1.3rem ;
+    list-style-type: none;
+    margin-bottom: 2rem;
+    padding: 0px;
+}
+.list2 {
+    color: #008d91 ; /* Cambia 'tu_color_aquí' por el color que desees */
+    padding: 0px 0px 0px 10px;
+}
+.list2  li {
+    font-size: 2rem ;
+   text-align: justify;
+   line-height: 1.1;
+}
+
+.spanLi{
+    color: black !important;
+    font-size: 1.5rem;
+}
+
+.imgCard {
+    width: 50px;
+     /* Ajusta la altura según tus preferencias */
+     /* Esto asegura que la imagen se ajuste dentro del contenedor sin perder su relación de aspecto */
+}
+
+.contentForm{
   
+}
 
- 
-
-
+.videoContainer{
+    
+}
