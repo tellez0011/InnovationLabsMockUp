@@ -12,7 +12,7 @@
 }
 
 
-.grid {
+.relleno {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,16 +22,19 @@
 
 .title {
     color: white;
-    font-size: 3vw;
+    font-size: 4rem;
     padding: 6rem 6rem 2rem 6rem;
 }
 
 .info {
     color: white;
-    font-size: 2vw;
+    font-size: 3rem;
     padding: 1rem 20% 7rem 20%;
     text-align: justify;
 
+}
+.highlight{
+    font-weight: 600;
 }
 
 .contentRegister {
@@ -39,23 +42,23 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 19vw 15vw 10vw 10vw;
+    padding: 21rem 13rem 10rem 10rem;
 }
 
 .imgRegister {
     width: 60%;
-    margin-bottom: 1vw;
+    margin-bottom: 3rem;
 }
 
 .topic>p:first-child {
     color: white;
-    font-size: 2vw;
+    font-size: 2REM;
    
 }
 
 .topic>p:last-child {
     color: white;
-    font-size: 4vw;
+    font-size: 4.5rem;
     font-weight: 700;
 }
 
@@ -65,19 +68,21 @@
 }
 
 .formInfo{
-    padding-top: 2vw;
+    padding-top: 1rem;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 2rem;
     text-wrap: nowrap;
 }
 .hour{
     color:#008d91;
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
 .btn{
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     background-color: #008d91;
     padding: 1vw 4vw;
     width: 30vw;
@@ -94,120 +99,6 @@ font-weight: 400;
 
   
 
-  @media (max-width: 1200px) {
-    .title {
-        padding: 2rem 3rem 2rem 3rem;
-        margin: 0px;
-        font-size: 3vw;
-    }
-    
-    .info {
-        padding: 1rem 15% 5rem 15%;
-        font-size: 2.5vw;
-    }
-    
-    .contentRegister {
-        padding: 19vw 10vw 10vw 10vw;
-    }
-    
-    .imgRegister {
-        width: 40%;
-    }
-  }
-  
-  
-  @media (max-width: 1024px) {
-    .title {
-        padding: 2rem 3rem 2rem 3rem;
-        margin: 0px;
-        font-size: 3vw;
-    }
-    
-    .info {
-        padding: 1rem 15% 5rem 15%;
-        font-size: 2.5vw;
-    }
-    
-    .contentRegister {
-        padding: 17vw 10vw 10vw 10vw;
-    }
-    
-    .imgRegister {
-        width: 40%;
-    }
-  }
-  
-  
-  @media (max-width: 768px) {
-    .title {
-        padding: 2rem 3rem 2rem 3rem;
-        margin: 0px;
-        font-size: 3vw;
-    }
-    
-    .info {
-        padding: 1rem 15% 5rem 15%;
-        font-size: 2.5vw;
-    }
-    
-    .contentRegister {
-        padding: 14vw 10vw 10vw 10vw;
-    }
-    
-    .imgRegister {
-        width: 40%;
-    }
-  }
-  
-  
-  @media (max-width: 600px) {
-    .title {
-        padding: 2rem 3rem 2rem 3rem;
-        margin: 0px;
-        font-size: 3vw;
-    }
-    
-    .info {
-        padding: 1rem 15% 5rem 15%;
-        font-size: 2.5vw;
-    }
-    
-    .contentRegister {
-        padding: 10vw 10vw 10vw 10vw;
-    }
-    
-    .imgRegister {
-        width: 40%;
-    }
-  }
-  
-
-  @media (max-width: 500px) {
-    .grid {
-      min-width: 500px;
-    }
-  }
  
-  @media (max-width: 480px) {
-    .title {
-        padding: 2rem 3rem 2rem 3rem;
-        margin: 0px;
-        font-size: 4vw;
-    }
-    
-    .info {
-        padding: 1rem 15% 5rem 15%;
-        font-size: 2.5vw;
-    }
-    
-    .contentRegister {
-        padding: 1vw 6vw 10vw 10vw;
-    }
-    
-    .imgRegister {
-        width: 40%;
-    }
-  }
-  
 
 
