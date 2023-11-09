@@ -58,7 +58,12 @@
     width: 60%;
     margin-bottom: 3rem;
 }
-
+.topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .topic>p:first-child {
     color: white;
     font-size: 2REM;
@@ -129,6 +134,13 @@
     width: 356px;
 }
 
+.bar2 {
+    min-height: 1rem;
+    background-color: #008d91;
+    border-radius: 10px;
+    width: 40.6rem;
+}
+
 .card {
     display: grid;
     grid-template-rows: 30% 70%;
@@ -142,51 +154,1115 @@
     border-top-right-radius: 0;
 }
 
+.card2 {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    align-items: center;
+    justify-items: center;
+    width: 40rem;
+    height: 22rem;
+    padding: 20px 30px 20px 30px;
+    gap: 2rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
 .card>p {
     font-weight: 500;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.list{
+.list {
     padding: 0px;
 }
-.listItem{
+
+.listItem {
     display: flex !important;
     align-items: center !important;
     justify-content: start !important;
 }
-.list  li {
-    font-size: 1.3rem ;
+
+.list li {
+    font-size: 1.3rem;
     list-style-type: none;
     margin-bottom: 2rem;
     padding: 0px;
 }
+
 .list2 {
-    color: #008d91 ; /* Cambia 'tu_color_aquí' por el color que desees */
+    color: #008d91;
+    /* Cambia 'tu_color_aquí' por el color que desees */
     padding: 0px 0px 0px 10px;
 }
-.list2  li {
-    font-size: 2rem ;
-   text-align: justify;
-   line-height: 1.1;
+
+.list2 li {
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 1.1;
 }
 
-.spanLi{
+.spanLi {
     color: black !important;
     font-size: 1.5rem;
 }
 
 .imgCard {
     width: 50px;
-     /* Ajusta la altura según tus preferencias */
-     /* Esto asegura que la imagen se ajuste dentro del contenedor sin perder su relación de aspecto */
 }
 
-.contentForm{
-  
+.information {
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 5rem;
 }
 
-.videoContainer{
+.event {
+    padding: 30px 20px 30px 20px;
+    color: #38c9a0;
+    font-size: 3rem;
+}
+
+.eventSpan {
+    font-weight: bold;
+}
+
+.evetInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.points {
+    width: 30%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.pontLine {
+    min-width: .5rem;
+    min-height: 2rem;
+    max-height: 2.5rem;
+    background-color: #008d91;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.parrafoPint {
+    text-align: justify;
+}
+
+.contentform {
+    padding: 10rem 8rem;
+    background-color: #f6f7f8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.contentVideo {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.lineTitle {
+    min-width: 4rem;
+    min-height: 0.5rem;
+    background-color: #008d91;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-top: 2.3rem;
+    margin-right: 1rem;
+    margin-left: -5rem;
+}
+
+.titleVideo {
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 0;
+    /* Añadido para eliminar el margen superior */
+}
+
+
+
+.formularioRegistro {
+    width: 80%;
+    border-radius: 2.5rem;
+    margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.titleForm {
+    color: #008d91;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.formularioRegistro div {
+    margin-bottom: 1rem;
+}
+
+.formularioRegistro label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.formularioRegistro input,
+.formularioRegistro select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: .7rem;
+
+}
+
+.formularioRegistro select {
+    background-color: #eaedf0;
+}
+
+.formularioRegistro button {
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background-color: #006484;
+    color: #fff;
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.descriptionVideo {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+.programme {
+    text-align: center;
+}
+
+.programme div {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+}
+
+.programeTitle {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #00b77e;
+    margin-bottom: 3rem;
+}
+
+.programme img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+
+.programme span {
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+
+
+
+@media (max-width: 1279px) {
+    .title {
+        color: white;
+        font-size: 4rem;
+        padding: 6rem 6rem 2rem 6rem;
+        text-align: center;
+    }
     
+    .info {
+        color: white;
+        font-size: 3rem;
+        padding: 1rem 20% 7rem 20%;
+        text-align: justify;
+    
+    }
+    
+    .highlight {
+        font-weight: 600;
+    }
+    
+    .contentRegister {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 19rem 17rem 10rem 10rem;
+    }
+    
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imgRegister {
+        width: 65%;
+        margin-bottom: 3rem;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topic>p:first-child {
+        color: white;
+        font-size: 2.8rem;
+
+    }
+
+    .topic>p:last-child {
+        color: white;
+        font-size: 5.8rem;
+        font-weight: 700;
+    }
+
+    .topic p {
+        margin: 0;
+        line-height: .8;
+    }
+
+    .formInfo {
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-wrap: nowrap;
+    }
+
+    .hour {
+        color: #008d91;
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1.8rem;
+        background-color: #008d91;
+        padding: 1vw 4vw;
+        width: 30vw;
+    }
+
+    .formInfo>p:first-child {
+        color: white;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: .5rem;
+    }
+
+    .contentContainer {
+        margin-top: 3rem;
+    }
+
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+
+    .parrafoPint{
+        width: 100% !important;
+    }
+
+    .evetInfo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px 50px;
+        width: 100%;
+    }
+
+    .pontLine {
+        min-width: .5rem;
+        min-height: 2rem;
+        max-height: 2.5rem;
+        background-color: #008d91;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+
+    .parrafoPint {
+        width: 400px;
+        height: 100%;
+        /* Asegura que el párrafo ocupe toda la altura del contenedor */
+        text-align: justify;
+    }
+
+    .contentform {
+        padding: 10rem 8rem;
+        background-color: #f6f7f8;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formularioRegistro {
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .title {
+        color: white;
+        font-size: 4rem;
+        padding: 6rem 6rem 2rem 6rem;
+        text-align: center;
+    }
+    
+    .info {
+        color: white;
+        font-size: 3rem;
+        padding: 1rem 20% 7rem 20%;
+        text-align: justify;
+    
+    }
+    
+    .highlight {
+        font-weight: 600;
+    }
+    
+    .contentRegister {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 14rem 13rem 10rem 10rem;
+    }
+    
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imgRegister {
+        width: 60%;
+        margin-bottom: 3rem;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topic>p:first-child {
+        color: white;
+        font-size: 2rem;
+
+    }
+
+    .topic>p:last-child {
+        color: white;
+        font-size: 4rem;
+        font-weight: 700;
+    }
+
+    .topic p {
+        margin: 0;
+        line-height: .8;
+    }
+
+    .formInfo {
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-wrap: nowrap;
+    }
+
+    .hour {
+        color: #008d91;
+        text-align: center;
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1.5rem;
+        background-color: #008d91;
+        padding: 1vw 4vw;
+        width: 30vw;
+    }
+
+    .formInfo>p:first-child {
+        color: white;
+        font-weight: 400;
+        font-size: 1.7rem;
+        margin-bottom: .5rem;
+    }
+
+    .contentContainer {
+        margin-top: 3rem;
+    }
+
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+
+    .parrafoPint{
+        width: 100% !important;
+    }
+
+    .evetInfo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px 50px;
+        width: 100%;
+    }
+
+    .pontLine {
+        min-width: .5rem;
+        min-height: 2rem;
+        max-height: 2.5rem;
+        background-color: #008d91;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+
+    .parrafoPint {
+        width: 400px;
+        height: 100%;
+        /* Asegura que el párrafo ocupe toda la altura del contenedor */
+        text-align: justify;
+    }
+
+    .contentform {
+        padding: 10rem 8rem;
+        background-color: #f6f7f8;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formularioRegistro {
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .title {
+        font-size: 3rem;
+        padding: 6rem 3rem 4rem 3rem;
+        margin-bottom: 0px;
+    }
+
+    .info {
+        padding: 2rem 20% 8rem 20%;
+        font-size: 2rem;
+    }
+
+    .contentRegister {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 12rem 10rem 4rem 1rem;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgRegister {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topic>p:first-child {
+        color: white;
+        font-size: 2.2rem;
+
+    }
+
+    .topic>p:last-child {
+        color: white;
+        font-size: 4.7rem;
+        font-weight: 700;
+    }
+
+    .topic p {
+        margin: 0;
+        line-height: .8;
+    }
+
+    .formInfo {
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-wrap: nowrap;
+    }
+
+    .hour {
+        color: #008d91;
+        text-align: center;
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1.5rem;
+        background-color: #008d91;
+        padding: 1vw 4vw;
+        width: 30vw;
+    }
+
+    .formInfo>p:first-child {
+        color: white;
+        font-weight: 400;
+        font-size: 1.7rem;
+        margin-bottom: .5rem;
+    }
+
+    .contentContainer {
+        margin-top: 3rem;
+    }
+
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+
+    .parrafoPint{
+        width: 100% !important;
+    }
+
+    .evetInfo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px 50px;
+        width: 100%;
+    }
+
+    .pontLine {
+        min-width: .5rem;
+        min-height: 2rem;
+        max-height: 2.5rem;
+        background-color: #008d91;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+
+    .parrafoPint {
+        width: 400px;
+        height: 100%;
+        /* Asegura que el párrafo ocupe toda la altura del contenedor */
+        text-align: justify;
+    }
+
+    .contentform {
+        padding: 10rem 8rem;
+        background-color: #f6f7f8;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .formularioRegistro {
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .title {
+        font-size: 2.5rem;
+        padding: 4rem 3rem 2rem 3rem;
+        margin-bottom: 0px;
+    }
+
+    .info {
+        padding: 2rem 18% 6rem 18%;
+        font-size: 1.8rem;
+    }
+
+    .contentRegister {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 7rem 6rem 1rem 1rem;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgRegister {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topic>p:first-child {
+        color: white;
+        font-size: 1.7rem;
+
+    }
+
+    .topic>p:last-child {
+        color: white;
+        font-size: 3.7rem;
+        font-weight: 700;
+    }
+
+    .topic p {
+        margin: 0;
+        line-height: .8;
+    }
+
+    .formInfo {
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 2rem;
+        text-wrap: nowrap;
+    }
+
+    .hour {
+        color: #008d91;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1.5rem;
+        background-color: #008d91;
+        padding: 1vw 4vw;
+        width: 30vw;
+    }
+
+    .formInfo>p:first-child {
+        color: white;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .contentContainer {
+        margin-top: 3rem;
+    }
+
+    .bodyContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listItem {
+        order: -1;
+        /* Cambia el orden del elemento */
+    }
+
+    .evetInfo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 auto;
+    }
+
+    .pontLine {
+        min-width: .5rem;
+        min-height: 2rem;
+        max-height: 2.5rem;
+        background-color: #008d91;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+
+    .parrafoPint {
+        width: 550px !important;
+        height: 100%;
+        /* Asegura que el párrafo ocupe toda la altura del contenedor */
+        text-align: justify;
+    }
+
+    .contentform {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .formularioRegistro {
+        width: 90%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+
+    iframe {
+        width: 450px;
+    }
+
+}
+
+
+
+
+@media (max-width: 578px) {
+    .title {
+        font-size: 2rem;
+        padding: 2rem 3rem 2rem 3rem;
+        margin-bottom: 0px;
+    }
+
+    .info {
+        padding: 2rem 18% 6rem 18%;
+        font-size: 1.4rem;
+    }
+
+    .contentRegister {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 2.3rem 5rem 1rem 1rem;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgRegister {
+        width: 40%;
+        margin-bottom: .5rem;
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .topic>p:first-child {
+        color: white;
+        font-size: 1.5rem;
+
+    }
+
+    .topic>p:last-child {
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+    .topic p {
+        margin: 0;
+        line-height: .8;
+    }
+
+    .formInfo {
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 2rem;
+        text-wrap: nowrap;
+    }
+
+    .hour {
+        color: #008d91;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1.3rem;
+        background-color: #008d91;
+        padding: 1vw 4vw;
+        width: 30vw;
+    }
+
+    .formInfo>p:first-child {
+        color: white;
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+    }
+
+    .contentContainer {
+        margin-top: 3rem;
+    }
+
+    .bodyContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listItem {
+        order: -1;
+        /* Cambia el orden del elemento */
+    }
+
+    .evetInfo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 auto;
+    }
+
+    .pontLine {
+        min-width: .5rem;
+        min-height: 2rem;
+        max-height: 2.5rem;
+        background-color: #008d91;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+
+    .parrafoPint {
+        width: 400px;
+        height: 100%;
+        /* Asegura que el párrafo ocupe toda la altura del contenedor */
+        text-align: justify;
+    }
+
+    .contentform {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .formularioRegistro {
+        width: 90%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+
+    iframe {
+        width: 450px;
+    }
+
+}
+
+
+@media (max-width: 501px) {
+    .title {
+        font-size: 2rem;
+        padding: 2rem 6rem 1rem 6rem;
+        margin-bottom: 0px;
+    }
+
+    .info {
+        padding: 0rem 20% 6rem 20%;
+        font-size: 1rem;
+    }
+
+    .contentRegister {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgRegister {
+        width: 35%;
+        margin-bottom: .5rem;
+    }
+
+    .topic>p:first-child {
+        color: white;
+        font-size: 1REM;
+
+    }
+    .topic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topic>p:last-child {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .topic p {
+        margin: 0;
+        /* Elimina el margen */
+        line-height: .8;
+    }
+
+    .formInfo {
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 2rem;
+        text-wrap: nowrap;
+    }
+
+    .hour {
+        color: #008d91;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .btn {
+        color: white;
+        font-size: 1rem;
+        background-color: #008d91;
+        padding: 1vw 4vw;
+        width: 30vw;
+    }
+
+    .formInfo>p:first-child {
+        color: white;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .contentContainer {
+        margin-top: 3rem;
+    }
+
+    .bodyContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listItem {
+        order: -1;
+        /* Cambia el orden del elemento */
+    }
+
+    .evetInfo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0 auto;
+    }
+
+    .pontLine {
+        min-width: .5rem;
+        min-height: 2rem;
+        max-height: 2.5rem;
+        background-color: #008d91;
+        margin-right: 5px;
+        border-radius: 10px;
+    }
+
+    .parrafoPint {
+        width: 400px;
+        height: 100%;
+        /* Asegura que el párrafo ocupe toda la altura del contenedor */
+        text-align: justify;
+    }
+
+    .contentform {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .formularioRegistro {
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+
+    iframe {
+        width: 450px;
+    }
+
 }

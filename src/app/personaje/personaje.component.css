@@ -1,0 +1,62 @@
+P{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.conetendor{
+    width: 100%;
+    background-image: url('../../assets/imgs/periodico.jpg');
+    height: fit-content;
+    
+}
+
+.superHeroContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(40, 40, 40,.7) ;
+}
+.tittle{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.name{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.bar {
+    display: inline-block;
+    height: 10px;
+    background-color: #fce3a0;
+    border-radius: 10px;
+  }
+
+  .valor{
+    margin-left: 1rem;
+  }
+  .contentStats:last-of-type{
+    margin-bottom: 2rem;
+  }
+  .stats {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .stats span.bar {
+    margin-left: 10px;
+  }
+  
+  .displayStats{
+    width: 80%;
+  }
+
+  .titles{
+    text-align: center;
+  }

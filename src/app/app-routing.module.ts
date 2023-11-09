@@ -5,18 +5,17 @@ import { PersonajeComponent } from './personaje/personaje.component';
 
 const routes: Routes = [
   {
-    path:'**',
-    redirectTo: 'mockUp'
+    path: 'personaje',
+    component: PersonajeComponent
   },
   {
-    path:'mockUp',
+    path: 'mockUp',
     component: MockupComponent
   },
   {
-    path:'personaje',
-    component: PersonajeComponent
+    path: '**',
+    redirectTo: 'mockUp'
   }
-
 ];
 
 @NgModule({
