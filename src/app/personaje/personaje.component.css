@@ -1,40 +1,42 @@
-P{
-    color: white;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: 'Marvel', sans-serif;
+P {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Marvel', sans-serif;
 }
 
 
-.conetendor{
-    width: 100%;
-    background-image: url('../../assets/imgs/periodico.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: fit-content;
-    font-family: 'Marvel', sans-serif;
+.conetendor {
+  width: 100%;
+  background-image: url('../../assets/imgs/periodico.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  font-family: 'Marvel', sans-serif;
 }
 
-.superHeroContainer{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgba(40, 40, 40,.7) ;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.superHeroContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(40, 40, 40, .7);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.tittle{
-    font-size: 40px;
-    color: white;
-    text-align: center;
+
+.tittle {
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
-.name{
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    font-family: 'Marvel', sans-serif;
+
+.name {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: 'Marvel', sans-serif;
 }
 
 .contentStats {
@@ -49,7 +51,8 @@ P{
 }
 
 .label {
-  width: 35%; /* Ajusta el ancho deseado para todas las etiquetas */
+  width: 35%;
+  /* Ajusta el ancho deseado para todas las etiquetas */
   text-align: left;
   margin-right: 10px;
   font-family: 'Marvel', sans-serif;
@@ -72,28 +75,30 @@ P{
 
 
 
-  .valor{
-    margin-left: 1rem;
-  }
-  .contentStats:last-of-type{
-    margin-bottom: 2rem;
-  }
-  .stats {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-  }
-  
-  .stats span.bar {
-    margin-left: 10px;
-  }
-  
-  .displayStats{
-    width: 80%;
-  }
+.valor {
+  margin-left: 1rem;
+}
 
-  .titles{
-    text-align: center;
-    font-family: 'Marvel', sans-serif;
-  }
+.contentStats:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.stats {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.stats span.bar {
+  margin-left: 10px;
+}
+
+.displayStats {
+  width: 80%;
+}
+
+.titles {
+  text-align: center;
+  font-family: 'Marvel', sans-serif;
+}
