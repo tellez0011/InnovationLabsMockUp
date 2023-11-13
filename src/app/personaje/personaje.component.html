@@ -2,9 +2,8 @@
     
         <ng-container  *ngIf="data">
            <div class="superHeroContainer">
-             <p class="tittle">THE AMAZING</p>
-            <img class="img-fluid"  [src]="data.images.lg" alt="Spider-Man LG Image">
             <p class="name">{{ data.name }}</p>
+            <img class="img-fluid"  [src]="data.images.lg" alt="Spider-Man LG Image">
             <div class="displayStats">
                 <div><p class="titles"> POWER STATS </p></div>
                 <div class="contentStats" *ngFor="let stat of powerstats">

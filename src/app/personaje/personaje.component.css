@@ -3,9 +3,13 @@ P{
     font-size: 2rem;
     text-transform: uppercase;
 }
+
+
 .conetendor{
     width: 100%;
     background-image: url('../../assets/imgs/periodico.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: fit-content;
     
 }

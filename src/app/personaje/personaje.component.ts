@@ -23,14 +23,13 @@ export class PersonajeComponent {
     try {
       const response = await this.http.get('https://superhero-search.p.rapidapi.com/api/', {
         headers,
-        params: { hero: 'Spiderman' }
+        params: { hero: 'Hulk' }
       }).toPromise();
   
       this.data= response
       this.powerstats = Object.keys(this.data.powerstats).map(label => ({ label, valor: this.data.powerstats[label] }));
       this.appearance=Object.keys(this.data.appearance).map(label =>({label,adjetive: this.data.appearance[label]}));
       this.biography=Object.keys(this.data.biography).map(label=>({label,data: this.data.biography[label]}))
-      console.log( this.data)
     } catch (error) {
       console.error(error);
     }

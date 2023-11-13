@@ -1,0 +1,1002 @@
+:root {
+    --color1: #1C8C90;
+    --color2: #1EBA88;
+    --color3: #008d91;
+}
+
+.contenedor {
+    width: 100%;
+    position: relative;
+    background-color: #f6f7f8;
+}
+
+.banner {
+    width: 100%;
+}
+
+
+
+.content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 60%;
+
+
+}
+
+.content-container>div:nth-child(3) {
+    margin-left: 40%;
+    /* Establece un margen del 20% a la izquierda */
+}
+
+.tituloContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+}
+
+.infoContainer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.info {
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.containerRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoMasterClas {
+    margin-top: 10vw;
+    width: 40%;
+}
+
+.containerRegister p {
+    margin: 5px;
+    color: white;
+    line-height: 3vw;
+}
+
+.containerRegister p:first-of-type {
+    margin-top: 10px;
+    font-size: 2.5vw;
+    margin-bottom: 0px;
+}
+
+.containerRegister p:last-of-type {
+    font-size: 6vw;
+    margin-bottom: 1rem;
+}
+
+.imparte {
+    color: white;
+    font-size: 2vw;
+}
+
+.hora {
+    color: #1C8C90;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+.btn {
+    background-color: #008d91;
+    border: none;
+    border-radius: 5px;
+    width: 20vw;
+    color: white;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+.contenedor2 {
+    background-color: #f6f7f8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+}
+
+.impartido{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+
+.infoContainer2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: #f6f7f8;
+    place-items: center;
+    row-gap: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 5vw;
+}
+.footer{
+    background-color: #006484;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+
+
+
+
+.boxContent{
+    padding: 20px 40px;
+    background-color: #ffffff;
+    min-width: 35vw;
+    min-height: 20vw;
+    text-align: center;
+    position: relative;
+}
+
+.boxContent2{
+    padding: 20px 40px;
+    background-color: #ffffff;
+    min-width: 37vw;
+    min-height: 20vw;
+   
+    text-align: left;
+    position: relative;
+}
+
+.boxContent:last-of-type{
+    text-align: left;
+}
+
+.listContent{
+    min-width: 50vw;
+    position: relative;
+}
+
+.line{
+position: absolute;
+    top: 0;
+    left: -6;
+    min-width: 36vw;
+    min-height: 1vw;
+    background-color:#1C8C90 ;
+    border-radius: 10px;
+}
+.line2{
+    position: absolute;
+        top: 0;
+        left: -6;
+        min-width: 38vw;
+        max-width: 38vw;
+        min-height: 1vw;
+        background-color:#1C8C90 ;
+        border-radius: 10px;
+    }
+
+
+.starGord{
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    width: 4.3vw;
+}
+.infoStar{
+    font-size: 1.3vw;
+}
+.list {
+    list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 1.3vw;
+}
+.flecha{
+    width: 2.5vw;
+}
+.list li {
+    margin-bottom: 10px;
+}
+
+.list2{
+color: #008d91;
+}
+.spanLi{
+    color: black;
+    font-size: 1.3vw;
+}
+
+.information {
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.event {
+    padding: 30px 20px 30px 20px;
+    color: #38c9a0;
+    font-size: 3vw;
+}
+
+.eventSpan {
+    font-weight: bold;
+}
+
+.evetInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.points {
+    width: 30%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.pontLine {
+    min-width: .5rem;
+    min-height: 2rem;
+    max-height: 2.5rem;
+    background-color: #008d91;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.parrafoPint {
+    text-align: justify;
+    font-size: 2vw;
+}
+
+
+.contentform {
+    padding: 2vw 6vw;
+    background-color: #f6f7f8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.contentVideo {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.lineTitle {
+    min-width: 4rem;
+    min-height: 0.5rem;
+    background-color: #008d91;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-top: 2.3rem;
+    margin-right: 1rem;
+    margin-left: -5rem;
+}
+
+.titleVideo {
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 0;
+    /* Añadido para eliminar el margen superior */
+}
+
+
+
+.formularioRegistro {
+    width: 100%;
+    border-radius: 2.5rem;
+    margin: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.titleForm {
+    color: #008d91;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.formularioRegistro div {
+    margin-bottom: 1rem;
+}
+
+.formularioRegistro label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.formularioRegistro input,
+.formularioRegistro select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: .7rem;
+
+}
+
+.formularioRegistro select {
+    background-color: #eaedf0;
+}
+
+.formularioRegistro button {
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background-color: #006484;
+    color: #fff;
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.descriptionVideo {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+.programme {
+    text-align: center;
+}
+
+.programme div {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+}
+
+.programeTitle {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #00b77e;
+    margin-bottom: 3rem;
+}
+
+.programme img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+}
+
+.programme span {
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: left;
+}
+
+.video{
+    width: 40vw;
+    height: 50vh;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .impartido{
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .infoContainer2 {
+        display:flex;
+        flex-direction: column;
+        background-color: #f6f7f8;
+        padding-left: 0px;
+    }
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 70vw !important;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line{
+        position: absolute;
+            top: 0;
+            left: -6;
+            min-width: 71vw;
+            min-height: 1vw;
+            background-color:#1C8C90 ;
+            border-radius: 10px;
+        }
+    .line2{
+        min-width: 71vw !important;
+    }
+    .infoStar{
+        font-size: 4vw;
+        padding: 0px;
+    }
+
+    .starGord{
+        margin-top: 1.5vw;
+        margin-bottom: 1vw;
+        width: 11vw;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spanLi {
+        color: black;
+        font-size: 4vw;
+    }
+    .list2{
+        color: #008d91;
+        font-size: 6vw;
+        }
+
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 45vw;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line2{
+        min-width: 46vw;
+    }
+    .infoStar{
+        padding: 0px;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .evetInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .points{
+        width: 80vw;
+    }
+    .contentform {
+        padding: 2vw 10vw;
+        background-color: #f6f7f8;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formularioRegistro{
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+    .event {
+        padding: 30px 20px 30px 20px;
+        color: #38c9a0;
+        font-size: 6vw;
+    }
+    .parrafoPint {
+        text-align: justify;
+        font-size: 4vw;
+    }
+    .titleVideo {
+        font-size: 6vw;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 0;
+        text-align: center;
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+
+    .video{
+        width: 80vw;
+        height: 51vh;
+    }
+
+    .list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 3vw;
+        width: 70%;
+    }
+    .flecha {
+        width: 4.5vw;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .impartido{
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .infoContainer2 {
+        display:flex;
+        flex-direction: column;
+        background-color: #f6f7f8;
+        padding-left: 0px;
+    }
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 70vw !important;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line{
+        position: absolute;
+            top: 0;
+            left: -6;
+            min-width: 71vw;
+            min-height: 1vw;
+            background-color:#1C8C90 ;
+            border-radius: 10px;
+        }
+    .line2{
+        min-width: 71vw !important;
+    }
+    .infoStar{
+        font-size: 4vw;
+        padding: 0px;
+    }
+
+    .starGord{
+        margin-top: 1.5vw;
+        margin-bottom: 1vw;
+        width: 11vw;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spanLi {
+        color: black;
+        font-size: 4vw;
+    }
+    .list2{
+        color: #008d91;
+        font-size: 6vw;
+        }
+
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 45vw;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line2{
+        min-width: 46vw;
+    }
+    .infoStar{
+        padding: 0px;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .evetInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .points{
+        width: 80vw;
+    }
+    .contentform {
+        padding: 2vw 10vw;
+        background-color: #f6f7f8;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formularioRegistro{
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+    .event {
+        padding: 30px 20px 30px 20px;
+        color: #38c9a0;
+        font-size: 6vw;
+    }
+    .parrafoPint {
+        text-align: justify;
+        font-size: 4vw;
+    }
+    .titleVideo {
+        font-size: 6vw;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 0;
+        text-align: center;
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+
+    .video{
+        width: 80vw;
+    height: 51vh;
+    }
+    .list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 3vw;
+        width: 70%;
+    }
+    .flecha {
+        width: 4.5vw;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .impartido{
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .infoContainer2 {
+        display:flex;
+        flex-direction: column;
+        background-color: #f6f7f8;
+        padding-left: 0px;
+    }
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 70vw !important;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line{
+        position: absolute;
+            top: 0;
+            left: -6;
+            min-width: 71vw;
+            min-height: 1vw;
+            background-color:#1C8C90 ;
+            border-radius: 10px;
+        }
+    .line2{
+        min-width: 71vw !important;
+    }
+    .infoStar{
+        font-size: 4vw;
+        padding: 0px;
+    }
+
+    .starGord{
+        margin-top: 1.5vw;
+        margin-bottom: 1vw;
+        width: 11vw;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spanLi[_ngcontent-ng-c1949064403] {
+        color: black;
+        font-size: 4vw;
+    }
+    .list2{
+        color: #008d91;
+        font-size: 6vw;
+        }
+
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 45vw;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line2{
+        min-width: 46vw;
+    }
+    .infoStar{
+        padding: 0px;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .evetInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .points{
+        width: 80vw;
+    }
+    .contentform {
+        padding: 2vw 10vw;
+        background-color: #f6f7f8;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formularioRegistro{
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+    .event {
+        padding: 30px 20px 30px 20px;
+        color: #38c9a0;
+        font-size: 6vw;
+    }
+    .parrafoPint {
+        text-align: justify;
+        font-size: 4vw;
+    }
+    .titleVideo {
+        font-size: 6vw;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 0;
+        text-align: center;
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+
+    .video{
+        width: 80vw;
+    height: 26vh;
+    }
+    .list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 3vw;
+        width: 70%;
+    }
+    .flecha {
+        width: 4.5vw;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .impartido{
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .infoContainer2 {
+        display:flex;
+        flex-direction: column;
+        background-color: #f6f7f8;
+        padding-left: 0px;
+    }
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 70vw !important;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line{
+        position: absolute;
+            top: 0;
+            left: -6;
+            min-width: 71vw;
+            min-height: 1vw;
+            background-color:#1C8C90 ;
+            border-radius: 10px;
+        }
+    .line2{
+        min-width: 71vw !important;
+    }
+    .infoStar{
+        font-size: 4vw;
+        padding: 0px;
+    }
+
+    .starGord{
+        margin-top: 1.5vw;
+        margin-bottom: 1vw;
+        width: 11vw;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spanLi[_ngcontent-ng-c1949064403] {
+        color: black;
+        font-size: 4vw;
+    }
+    .list2{
+        color: #008d91;
+        font-size: 6vw;
+        }
+
+
+    .boxContent{
+        width: 70vw;
+    }
+    .boxContent2{
+        width: 45vw;
+        height: fit-content;
+        min-height: 20vw;
+    }
+    .line2{
+        min-width: 46vw;
+    }
+    .infoStar{
+        padding: 0px;
+    }
+    .listContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .evetInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .points{
+        width: 80vw;
+    }
+    .contentform {
+        padding: 2vw 10vw;
+        background-color: #f6f7f8;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .formularioRegistro{
+        width: 100%;
+        border-radius: 2.5rem;
+        margin: auto;
+        padding: 2rem;
+        background-color: #ffffff;
+    }
+    .event {
+        padding: 30px 20px 30px 20px;
+        color: #38c9a0;
+        font-size: 6vw;
+    }
+    .parrafoPint {
+        text-align: justify;
+        font-size: 4vw;
+    }
+    .titleVideo {
+        font-size: 6vw;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 0;
+        text-align: center;
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+    .descriptionVideo {
+        text-align: center;
+        display: inline-block;
+        font-size:  5vw;
+    
+    }
+
+    .video{
+        width: 80vw;
+    height: 26vh;
+    }
+    .list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: 3vw;
+        width: 70%;
+    }
+    .flecha {
+        width: 4.5vw;
+    }
+}
+
+
+
+
+
+
