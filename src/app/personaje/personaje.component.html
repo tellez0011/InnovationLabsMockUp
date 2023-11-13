@@ -1,30 +1,39 @@
 <div class=" conetendor d-flex align-items-center justify-content-center">
-    
-        <ng-container  *ngIf="data">
-           <div class="superHeroContainer">
+    <ng-container *ngIf="data">
+        <div class="superHeroContainer">
             <p class="name">{{ data.name }}</p>
-            <img class="img-fluid"  [src]="data.images.lg" alt="Spider-Man LG Image">
+            <img class="img-fluid" [src]="data.images.lg" alt="Spider-Man LG Image">
             <div class="displayStats">
-                <div><p class="titles"> POWER STATS </p></div>
+                <p class="titles"> statistics</p>
                 <div class="contentStats" *ngFor="let stat of powerstats">
-                    <p class="stats">{{ stat.label }}:  <br><span class="bar" [style.width.%]="stat.valor"></span> <span class=" valor"> {{stat.valor}}</span></p>
+                    <div class="stat">
+                        <p class="label">{{ stat.label }}:</p>
+                        <div class="bar-container">
+                            <div class="bar" [style.width.%]="stat.valor"></div>
+                        </div>
+                        <p class="valor">{{ stat.valor }}</p>
+                    </div>
                 </div>
             </div>
             <div class="displayStats">
-                <div><p class="titles"> appearance</p></div>
+                <div>
+                    <p class="titles"> appearance</p>
+                </div>
                 <div *ngFor="let item of appearance">
                     <p> {{item.label}}: {{item.adjetive}}</p>
                 </div>
             </div>
 
             <div class="displayStats">
-                <div><p class="titles"> biography</p></div>
+                <div>
+                    <p class="titles"> biography</p>
+                </div>
                 <div *ngFor="let item of biography">
                     <p> {{item.label}}: {{item.data}}</p>
                 </div>
             </div>
 
-           </div>
-        </ng-container>
-    
+        </div>
+    </ng-container>
+
 </div>
