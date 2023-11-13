@@ -7,7 +7,7 @@
             <div class="displayStats">
                 <div><p class="titles"> POWER STATS </p></div>
                 <div class="contentStats" *ngFor="let stat of powerstats">
-                    <p class="stats">{{ stat.label }}: <span class="bar" [style.width.%]="stat.valor"></span> <span class=" valor"> {{stat.valor}}</span></p>
+                    <p class="stats">{{ stat.label }}:  <br><span class="bar" [style.width.%]="stat.valor"></span> <span class=" valor"> {{stat.valor}}</span></p>
                 </div>
             </div>
             <div class="displayStats">

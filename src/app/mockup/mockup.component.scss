@@ -1,8 +1,4 @@
-:root {
-    --color1: #1C8C90;
-    --color2: #1EBA88;
-    --color3: #008d91;
-}
+
 
 .contenedor {
     width: 100%;
@@ -749,7 +745,7 @@ color: #008d91;
         align-items: center;
     }
 
-    .spanLi[_ngcontent-ng-c1949064403] {
+    .spanLi {
         color: black;
         font-size: 4vw;
     }
@@ -898,14 +894,11 @@ color: #008d91;
         align-items: center;
     }
 
-    .spanLi[_ngcontent-ng-c1949064403] {
+    .spanLi {
         color: black;
-        font-size: 4vw;
+        font-size: 4vw !important;
     }
-    .list2{
-        color: #008d91;
-        font-size: 6vw;
-        }
+    
 
 
     .boxContent{
